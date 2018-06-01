@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cp_hot_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="@dimen/cp_index_bar_width"
+        android:paddingEnd="@dimen/cp_index_bar_width"
+        android:paddingStart="16dp"/>
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂无历史数据"
+        android:padding="15dp"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+</FrameLayout>
